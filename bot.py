@@ -16,7 +16,7 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if message.content.startswith("hacks status"):
-        await message.channel.send("FUSE: refurbishment"
+        await message.channel.send("FUSE: offline"
                                    "\nD3SK1NG: offline"
                                    "\nATS: online")
     if message.content.startswith("핵 현황"):
