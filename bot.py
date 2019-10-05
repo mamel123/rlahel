@@ -9,7 +9,7 @@ async def on_ready():
     print(client.user.id)
     print("ready")
     game = discord.Game("No.1 CHANCE TEAM")
-    await client.change_presence(status=discord.Status.offline, activity=game)
+    await client.change_presence(status=discord.Status.online, activity=game)
 
 
 
