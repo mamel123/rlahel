@@ -23,6 +23,8 @@ async def on_message(message):
         await message.channel.send("FUSE: refurbishment"
                                    "\nD3SK1NG: offline"
                                    "\nATS: online")
+    if message.content.startswith("데스킹 현황"):
+        await message.channel.send("D3SK1NG: offline")
 
 
 access_token = os.environ["BOT_TOKEN"]
