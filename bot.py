@@ -20,7 +20,7 @@ async def on_message(message):
                                    "\nD3SK1NG: offline"
                                    "\nATS: online")
     if message.content.startswith("핵 현황"):
-        await message.channel.send("FUSE: refurbishment"
+        await message.channel.send("FUSE: offline"
                                    "\nD3SK1NG: offline"
                                    "\nATS: online")
     if message.content.startswith("데스킹 현황"):
