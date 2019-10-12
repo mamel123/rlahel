@@ -29,7 +29,7 @@ async def on_message(message):
         await message.channel.send("D3SK1NG: online")
 
     if message.content.startswith("!news"):
-        await message.channel.send("**FUSE is completely fixing, re-released**")
+        await message.channel.send("__**FUSE will be fully fix, re-released**__")
 
 access_token = os.environ["BOT_TOKEN"]
 client.run(access_token)
