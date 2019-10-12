@@ -28,5 +28,8 @@ async def on_message(message):
     if message.content.startswith("데스킹 현황"):
         await message.channel.send("D3SK1NG: online")
 
+    if message.content.startswith("!news"):
+        await message.channel.send("**FUSE is completely fixing, re-released**")
+
 access_token = os.environ["BOT_TOKEN"]
 client.run(access_token)
