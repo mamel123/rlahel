@@ -37,7 +37,7 @@ async def on_message(message):
                                    "\n```fix"
                                    "\n!핵 현황"
                                    "\n!뉴스 현황"
-                                   "\n!news
+                                   "\n!news"
                                    "\n!fivem```")
 
         if message.content.startswith("!fivem"):
