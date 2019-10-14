@@ -35,7 +35,7 @@ async def on_message(message):
         await message.channel.send("```fix"
                                    "\n!핵 현황"
                                    "\n!뉴스 현황"
-                                   "\n!)
+                                   "\n!news```")
 
     if message.content.startswith("!news"):
         await message.channel.send("__**The developer is on vacation, so it takes a while for the FUSE re-release.**__")
