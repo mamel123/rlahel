@@ -20,7 +20,7 @@ async def on_message(message):
                                    "\nD3SK1NG: online"
                                    "\nATS: online")
 
-    if message.content.startswith("핵 현황"):
+    if message.content.startswith("!핵 현황"):
         await message.channel.send("FUSE: offline"
                                    "\nD3SK1NG: online"
                                    "\nATS: online")
@@ -28,8 +28,14 @@ async def on_message(message):
     if message.content.startswith("데스킹 현황"):
         await message.channel.send("D3SK1NG: online")
         
-    if message.content.startswith("뉴스 현황"):
+    if message.content.startswith("!뉴스 현황"):
         await message.channel.send("현재 새로운 뉴스가 있습니다.")
+    
+    if message.content.startswith("!명령어"):
+        await message.channel.send("```fix"
+                                   "\n!핵 현황"
+                                   "\n!뉴스 현황"
+                                   "\n!)
 
     if message.content.startswith("!news"):
         await message.channel.send("__**The developer is on vacation, so it takes a while for the FUSE re-release.**__")
