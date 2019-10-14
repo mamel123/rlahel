@@ -32,7 +32,9 @@ async def on_message(message):
         await message.channel.send("현재 새로운 뉴스가 있습니다.")
     
     if message.content.startswith("!명령어"):
-        await message.channel.send("```fix"
+        await message.channel.send("```ini"
+                                   "\n[ 명령어 ]```"
+                                   "\n```fix"
                                    "\n!핵 현황"
                                    "\n!뉴스 현황"
                                    "\n!news```")
